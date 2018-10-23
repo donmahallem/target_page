@@ -6,6 +6,7 @@ install:
   - npm install
 script:
   - npm build
+  - ls
 deploy:
   target-branch: gh-pages
   provider: pages
